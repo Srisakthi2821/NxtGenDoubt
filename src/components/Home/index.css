@@ -1,0 +1,31 @@
+/* Write your CSS code here */
+.homeDescContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 50px;
+}
+.homePartImg {
+  max-height: 70vh;
+}
+.firstPartHome {
+  padding: 20px 80px;
+}
+.buttonShopnow {
+  all: unset;
+  background-color: #0967d2;
+  color: white;
+  font-weight: 500;
+  padding: 10px 26px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+.headingHome {
+  max-width: 600px;
+  font-size: 60px;
+  color: #1e293b;
+}
+.paraHome {
+  font-size: 20px;
+  color: #475569;
+}

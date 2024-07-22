@@ -1,0 +1,31 @@
+/* Write your CSS code here */
+.navbar {
+  display: flex;
+  align-items: center;
+  padding: 10px 32px;
+  justify-content: space-between;
+}
+.logoNavbar {
+  max-height: 70px;
+}
+ul {
+  list-style-type: none;
+}
+.containerNavItems {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+.listItemNav {
+  color: #64748b;
+  font-size: 18px;
+}
+.buttonLogout {
+  all: unset;
+  background-color: #0967d2;
+  color: white;
+  font-weight: 500;
+  padding: 10px 26px;
+  border-radius: 6px;
+  cursor: pointer;
+}
